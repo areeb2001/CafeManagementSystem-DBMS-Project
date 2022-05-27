@@ -1,0 +1,152 @@
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\PorjectMVC.dll.config
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\PorjectMVC.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\PorjectMVC.pdb
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\csc.exe
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\csc.exe.config
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\csc.rsp
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\csi.exe
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\csi.exe.config
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\csi.rsp
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.AppContext.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Console.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Net.Http.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\vbc.exe
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\vbc.exe.config
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\vbc.rsp
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\EntityFramework.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Helpers.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Mvc.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Razor.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Webpages.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Webpages.Razor.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\EntityFramework.xml
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Razor.xml
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Webpages.xml
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Webpages.Razor.xml
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Helpers.xml
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Mvc.xml
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\obj\Debug\PorjectMVC.csprojAssemblyReference.cache
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\obj\Debug\PorjectMVC.csproj.CoreCompileInputs.cache
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\obj\Debug\PorjectMVC.csproj.CopyComplete
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\obj\Debug\PorjectMVC.dll
+C:\Users\Areeb\Desktop\MVC\Project\PorjectMVC\PorjectMVC\obj\Debug\PorjectMVC.pdb
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\PorjectMVC.dll.config
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\PorjectMVC.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\PorjectMVC.pdb
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\csc.exe
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\csc.exe.config
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\csc.rsp
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\csi.exe
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\csi.exe.config
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\csi.rsp
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.AppContext.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Console.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Net.Http.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\vbc.exe
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\vbc.exe.config
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\vbc.rsp
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\EntityFramework.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Helpers.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Mvc.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Razor.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Webpages.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Webpages.Razor.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\EntityFramework.xml
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Razor.xml
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Webpages.xml
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Webpages.Razor.xml
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Helpers.xml
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\System.Web.Mvc.xml
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\obj\Debug\PorjectMVC.csprojAssemblyReference.cache
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\obj\Debug\PorjectMVC.csproj.CoreCompileInputs.cache
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\obj\Debug\PorjectMVC.csproj.CopyComplete
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\obj\Debug\PorjectMVC.dll
+C:\Users\Areeb\Desktop\dbms Project\MVC\Project\PorjectMVC\PorjectMVC\obj\Debug\PorjectMVC.pdb

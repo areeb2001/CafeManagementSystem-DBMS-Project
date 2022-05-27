@@ -1,0 +1,26 @@
+﻿@model PorjectMVC.Models.tblCategory
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tblCategory</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoriesName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CategoriesName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CategoriesId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

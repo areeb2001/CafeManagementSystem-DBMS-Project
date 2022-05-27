@@ -1,0 +1,34 @@
+﻿@model IEnumerable<PorjectMVC.Models.tblCategory>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoriesName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CategoriesName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CategoriesId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CategoriesId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CategoriesId })
+        </td>
+    </tr>
+}
+
+</table>
+<a href="/Admin/adminPage" class="btn btn-default"> Go Back</a>

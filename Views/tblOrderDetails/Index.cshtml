@@ -1,0 +1,52 @@
+﻿@model IEnumerable<PorjectMVC.Models.tblOrderDetail>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.qty)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblItem.ItemName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblOrder.OrderId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.qty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblItem.ItemName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblOrder.OrderId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.DetialOrder }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DetialOrder }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.DetialOrder })
+        </td>
+    </tr>
+}
+
+</table>
+<a href="/Admin/adminPage" class="btn btn-default"> Go Back</a>

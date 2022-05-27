@@ -1,0 +1,42 @@
+﻿@model PorjectMVC.Models.tblCustomer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tblCustomer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CusName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CusName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CusEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CusEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CusPass)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CusPass)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Cusid }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,47 @@
+﻿@model IEnumerable<PorjectMVC.Models.tblCustomer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CusName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CusEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CusPass)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CusName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CusEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CusPass)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Cusid }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Cusid }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Cusid })
+        </td>
+    </tr>
+}
+
+</table>
+
+<a href="/Admin/adminPage" class="btn btn-default"> Go Back</a>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CafeManagementSystemModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tblAdmin">
+    <Key>
+      <PropertyRef Name="AdminId" />
+    </Key>
+    <Property Name="AdminId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdminUserName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="AdminPass" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblCategories">
+    <Key>
+      <PropertyRef Name="CategoriesId" />
+    </Key>
+    <Property Name="CategoriesId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoriesName" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblCustomer">
+    <Key>
+      <PropertyRef Name="Cusid" />
+    </Key>
+    <Property Name="Cusid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CusName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="CusEmail" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CusPass" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblItem">
+    <Key>
+      <PropertyRef Name="ItemId" />
+    </Key>
+    <Property Name="ItemId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cateid" Type="int" />
+    <Property Name="ItemName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="size" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="qty" Type="int" Nullable="false" />
+    <Property Name="price" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblOrder">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="int" />
+  </EntityType>
+  <EntityType Name="tblOrderDetails">
+    <Key>
+      <PropertyRef Name="DetialOrder" />
+    </Key>
+    <Property Name="DetialOrder" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="orderId" Type="int" />
+    <Property Name="ItemId" Type="int" />
+    <Property Name="qty" Type="int" Nullable="false" />
+    <Property Name="price" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__tblItem__Cateid__412EB0B6">
+    <End Role="tblCategories" Type="Self.tblCategories" Multiplicity="0..1" />
+    <End Role="tblItem" Type="Self.tblItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCategories">
+        <PropertyRef Name="CategoriesId" />
+      </Principal>
+      <Dependent Role="tblItem">
+        <PropertyRef Name="Cateid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblOrder__Custom__3C69FB99">
+    <End Role="tblCustomer" Type="Self.tblCustomer" Multiplicity="0..1" />
+    <End Role="tblOrder" Type="Self.tblOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCustomer">
+        <PropertyRef Name="Cusid" />
+      </Principal>
+      <Dependent Role="tblOrder">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblOrderD__ItemI__571DF1D5">
+    <End Role="tblItem" Type="Self.tblItem" Multiplicity="0..1" />
+    <End Role="tblOrderDetails" Type="Self.tblOrderDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblItem">
+        <PropertyRef Name="ItemId" />
+      </Principal>
+      <Dependent Role="tblOrderDetails">
+        <PropertyRef Name="ItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblOrderD__order__5629CD9C">
+    <End Role="tblOrder" Type="Self.tblOrder" Multiplicity="0..1" />
+    <End Role="tblOrderDetails" Type="Self.tblOrderDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblOrder">
+        <PropertyRef Name="OrderId" />
+      </Principal>
+      <Dependent Role="tblOrderDetails">
+        <PropertyRef Name="orderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CafeManagementSystemModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblAdmin" EntityType="Self.tblAdmin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblCategories" EntityType="Self.tblCategories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblCustomer" EntityType="Self.tblCustomer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblItem" EntityType="Self.tblItem" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblOrder" EntityType="Self.tblOrder" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblOrderDetails" EntityType="Self.tblOrderDetails" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__tblItem__Cateid__412EB0B6" Association="Self.FK__tblItem__Cateid__412EB0B6">
+      <End Role="tblCategories" EntitySet="tblCategories" />
+      <End Role="tblItem" EntitySet="tblItem" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblOrder__Custom__3C69FB99" Association="Self.FK__tblOrder__Custom__3C69FB99">
+      <End Role="tblCustomer" EntitySet="tblCustomer" />
+      <End Role="tblOrder" EntitySet="tblOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblOrderD__ItemI__571DF1D5" Association="Self.FK__tblOrderD__ItemI__571DF1D5">
+      <End Role="tblItem" EntitySet="tblItem" />
+      <End Role="tblOrderDetails" EntitySet="tblOrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblOrderD__order__5629CD9C" Association="Self.FK__tblOrderD__order__5629CD9C">
+      <End Role="tblOrder" EntitySet="tblOrder" />
+      <End Role="tblOrderDetails" EntitySet="tblOrderDetails" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

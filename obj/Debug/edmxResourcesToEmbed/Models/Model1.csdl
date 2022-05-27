@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CafeManagementSystemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblAdmin">
+    <Key>
+      <PropertyRef Name="AdminId" />
+    </Key>
+    <Property Name="AdminId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdminUserName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AdminPass" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblCategory">
+    <Key>
+      <PropertyRef Name="CategoriesId" />
+    </Key>
+    <Property Name="CategoriesId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoriesName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="tblItems" Relationship="Self.FK__tblItem__Cateid__412EB0B6" FromRole="tblCategories" ToRole="tblItem" />
+  </EntityType>
+  <EntityType Name="tblCustomer">
+    <Key>
+      <PropertyRef Name="Cusid" />
+    </Key>
+    <Property Name="Cusid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CusName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CusEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CusPass" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblOrders" Relationship="Self.FK__tblOrder__Custom__3C69FB99" FromRole="tblCustomer" ToRole="tblOrder" />
+  </EntityType>
+  <EntityType Name="tblItem">
+    <Key>
+      <PropertyRef Name="ItemId" />
+    </Key>
+    <Property Name="ItemId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cateid" Type="Int32" />
+    <Property Name="ItemName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="size" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="qty" Type="Int32" Nullable="false" />
+    <Property Name="price" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblCategory" Relationship="Self.FK__tblItem__Cateid__412EB0B6" FromRole="tblItem" ToRole="tblCategories" />
+    <NavigationProperty Name="tblOrderDetails" Relationship="Self.FK__tblOrderD__ItemI__571DF1D5" FromRole="tblItem" ToRole="tblOrderDetails" />
+  </EntityType>
+  <EntityType Name="tblOrder">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerId" Type="Int32" />
+    <NavigationProperty Name="tblCustomer" Relationship="Self.FK__tblOrder__Custom__3C69FB99" FromRole="tblOrder" ToRole="tblCustomer" />
+    <NavigationProperty Name="tblOrderDetails" Relationship="Self.FK__tblOrderD__order__5629CD9C" FromRole="tblOrder" ToRole="tblOrderDetails" />
+  </EntityType>
+  <EntityType Name="tblOrderDetail">
+    <Key>
+      <PropertyRef Name="DetialOrder" />
+    </Key>
+    <Property Name="DetialOrder" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="orderId" Type="Int32" />
+    <Property Name="ItemId" Type="Int32" />
+    <Property Name="qty" Type="Int32" Nullable="false" />
+    <Property Name="price" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblItem" Relationship="Self.FK__tblOrderD__ItemI__571DF1D5" FromRole="tblOrderDetails" ToRole="tblItem" />
+    <NavigationProperty Name="tblOrder" Relationship="Self.FK__tblOrderD__order__5629CD9C" FromRole="tblOrderDetails" ToRole="tblOrder" />
+  </EntityType>
+  <Association Name="FK__tblItem__Cateid__412EB0B6">
+    <End Role="tblCategories" Type="Self.tblCategory" Multiplicity="0..1" />
+    <End Role="tblItem" Type="Self.tblItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCategories">
+        <PropertyRef Name="CategoriesId" />
+      </Principal>
+      <Dependent Role="tblItem">
+        <PropertyRef Name="Cateid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblOrder__Custom__3C69FB99">
+    <End Role="tblCustomer" Type="Self.tblCustomer" Multiplicity="0..1" />
+    <End Role="tblOrder" Type="Self.tblOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCustomer">
+        <PropertyRef Name="Cusid" />
+      </Principal>
+      <Dependent Role="tblOrder">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblOrderD__ItemI__571DF1D5">
+    <End Role="tblItem" Type="Self.tblItem" Multiplicity="0..1" />
+    <End Role="tblOrderDetails" Type="Self.tblOrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblItem">
+        <PropertyRef Name="ItemId" />
+      </Principal>
+      <Dependent Role="tblOrderDetails">
+        <PropertyRef Name="ItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblOrderD__order__5629CD9C">
+    <End Role="tblOrder" Type="Self.tblOrder" Multiplicity="0..1" />
+    <End Role="tblOrderDetails" Type="Self.tblOrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblOrder">
+        <PropertyRef Name="OrderId" />
+      </Principal>
+      <Dependent Role="tblOrderDetails">
+        <PropertyRef Name="orderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CafeManagementSystemEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="tblAdmins" EntityType="Self.tblAdmin" />
+    <EntitySet Name="tblCategories" EntityType="Self.tblCategory" />
+    <EntitySet Name="tblCustomers" EntityType="Self.tblCustomer" />
+    <EntitySet Name="tblItems" EntityType="Self.tblItem" />
+    <EntitySet Name="tblOrders" EntityType="Self.tblOrder" />
+    <EntitySet Name="tblOrderDetails" EntityType="Self.tblOrderDetail" />
+    <AssociationSet Name="FK__tblItem__Cateid__412EB0B6" Association="Self.FK__tblItem__Cateid__412EB0B6">
+      <End Role="tblCategories" EntitySet="tblCategories" />
+      <End Role="tblItem" EntitySet="tblItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblOrder__Custom__3C69FB99" Association="Self.FK__tblOrder__Custom__3C69FB99">
+      <End Role="tblCustomer" EntitySet="tblCustomers" />
+      <End Role="tblOrder" EntitySet="tblOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblOrderD__ItemI__571DF1D5" Association="Self.FK__tblOrderD__ItemI__571DF1D5">
+      <End Role="tblItem" EntitySet="tblItems" />
+      <End Role="tblOrderDetails" EntitySet="tblOrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblOrderD__order__5629CD9C" Association="Self.FK__tblOrderD__order__5629CD9C">
+      <End Role="tblOrder" EntitySet="tblOrders" />
+      <End Role="tblOrderDetails" EntitySet="tblOrderDetails" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
